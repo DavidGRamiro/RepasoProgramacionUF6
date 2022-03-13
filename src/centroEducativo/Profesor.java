@@ -4,12 +4,18 @@ public class Profesor extends Persona {
 
 	private String competencias;
 	
-	public Profesor () {
+	public Profesor (String competencias) {
+		super();
 		this.competencias = competencias;
 	}
 	public Profesor() {	
 	}
-	
+	public String getCompetencias() {
+		return competencias;
+	}
+	public void setCompetencias(String competencias) {
+		this.competencias=competencias;
+	}
 	
 	
 	
