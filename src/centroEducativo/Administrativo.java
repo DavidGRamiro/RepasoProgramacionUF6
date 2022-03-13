@@ -25,7 +25,7 @@ public class Administrativo extends Persona {
 		return "La administrativa " + this.getNombre() + "va a realizar estas tareas: " + this.getTareas();
 	}
 	public String llamar() {
-		return this.getNombre() + "llamando a " + this.getNombre();
+		return super.llamar();
 	}
 	@Override
 	public String toString() {

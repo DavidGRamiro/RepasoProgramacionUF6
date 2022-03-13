@@ -23,7 +23,7 @@ public class Alumno extends Persona{
 		return "La alumna " + this.getNombre() + " esta cursando " + this.getCurso();
 	}
 	public String llamar() {
-		return this.getNombre() + " llamando a " + this.getNombre();
+		return super.llamar();
 	}
 	@Override
 	public String toString() {

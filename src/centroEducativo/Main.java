@@ -16,6 +16,9 @@ public class Main {
 		System.out.println(p2.trabajar());
 		System.out.println(p3.trabajar());
 		System.out.println("\n");
+		System.out.println(p1.llamar()+p2.getNombre());
+		System.out.println(p3.llamar() + p1.getNombre());
+		System.out.println("\n");
 		
 		
 
