@@ -16,14 +16,23 @@ public class Profesor extends Persona {
 	public void setCompetencias(String competencias) {
 		this.competencias=competencias;
 	}
+	
+	
+	
 	public String ponerNotas() {
-		return this.getNombre() + "va a corregir los exámenes";
+		return this.getNombre() + " va a corregir los exámenes";
 	}
-	
-		
-		
+	public String trabajar() {
+		return this.getNombre() + " va a impartir su clase";
 	}
-	
-	
+	@Override
+	public String llamar() { 
+		return this.getNombre() + "llamando a " + this.getNombre();
+	}
+	@Override
+	public String toString() {
+		return super() + "Competencias : " + this.getCompetencias();
+	}
+}	
 	
 
