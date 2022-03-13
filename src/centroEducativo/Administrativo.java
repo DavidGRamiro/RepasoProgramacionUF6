@@ -4,7 +4,8 @@ public class Administrativo extends Persona {
 
 	private String tareas;
 	
-	public Administrativo(String tareas) {
+	public Administrativo(String Nombre,String Nif, String dirección, int telf,String tareas) {
+		super(Nombre,Nif,dirección,telf);
 		this.tareas=tareas;
 	}
 	public Administrativo() {
