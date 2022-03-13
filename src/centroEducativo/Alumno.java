@@ -1,10 +1,11 @@
 package centroEducativo;
 
-public class Alumno {
+public class Alumno extends Persona{
 
 	private String curso;
 	
-	public Alumno(String curso) {	
+	public Alumno(String Nombre,String Nif, String dirección, int telf, String curso) {
+		super(Nombre,Nif,dirección,telf);
 		this.curso = curso;
 	}
 	public Alumno() {
@@ -26,7 +27,7 @@ public class Alumno {
 	}
 	@Override
 	public String toString() {
-		return super() + "Curso: " + this.curso;
+		return  "Curso: " + this.curso;
 	}
 	
 }

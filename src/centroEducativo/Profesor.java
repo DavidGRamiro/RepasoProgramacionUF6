@@ -4,8 +4,8 @@ public class Profesor extends Persona {
 
 	private String competencias;
 	
-	public Profesor (String competencias) {
-		super();
+	public Profesor (String Nombre,String Nif, String dirección, int telf, String competencias) {
+		super(Nombre,Nif,dirección,telf);
 		this.competencias = competencias;
 	}
 	public Profesor() {	
@@ -31,7 +31,7 @@ public class Profesor extends Persona {
 	}
 	@Override
 	public String toString() {
-		return super() + "Competencias : " + this.getCompetencias();
+		return "Competencias : " + this.getCompetencias();
 	}
 }	
 	
