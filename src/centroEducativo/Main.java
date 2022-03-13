@@ -11,6 +11,12 @@ public class Main {
 		System.out.println(p1.toString());
 		System.out.println(p2.toString());
 		System.out.println(p3.toString());
+		System.out.println("\n");
+		System.out.println(p1.trabajar());
+		System.out.println(p2.trabajar());
+		System.out.println(p3.trabajar());
+		System.out.println("\n");
+		
 		
 
 	}
