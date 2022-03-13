@@ -29,9 +29,9 @@ public class Profesor extends Persona {
 	public String llamar() { 
 		return this.getNombre() + "llamando a " + this.getNombre();
 	}
-	@Override
+	
 	public String toString() {
-		return "Competencias : " + this.getCompetencias();
+		return super.toString() +  " Competencias : " + this.getCompetencias();
 	}
 }	
 	

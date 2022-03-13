@@ -8,7 +8,9 @@ public class Main {
 		Alumno p2 = new Alumno ("Alicia Perez", "5458745H","Calle Illescas",77777564,"1º BACH");
 		Administrativo p3 = new Administrativo ("Rosa Perez","8792485X","Calle Madrid",678994648,"Gestionar matriculas");
 		
-		
+		System.out.println(p1.toString());
+		System.out.println(p2.toString());
+		System.out.println(p3.toString());
 		
 
 	}

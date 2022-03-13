@@ -29,7 +29,7 @@ public class Administrativo extends Persona {
 	}
 	@Override
 	public String toString() {
-		 return "Tareas: " + this.getTareas();
+		 return super.toString() +  " Tareas: " + this.getTareas();
 	}
 	
 	

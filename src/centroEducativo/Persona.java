@@ -47,7 +47,7 @@ public abstract class Persona {
 	public abstract String trabajar();
 	
 	public String toString() {
-		return "Nombre: " + this.getNombre() + ", NIF: " + this.getNif() + ", Dirección: " + this.getDirección() + "Teléfono : " + this.getTelf();
+		return "Nombre: " + this.getNombre() + ", NIF: " + this.getNif() + ", Dirección: " + this.getDirección() + " Teléfono : " + this.getTelf();
 	}
 	
 	
