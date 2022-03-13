@@ -19,10 +19,10 @@ public class Administrativo extends Persona {
 	}
 	
 	public String gestionarMatricula() {
-		return "La administrativa" + this.getNombre() + "va a gestionar las matriculas";
+		return "La administrativa " + this.getNombre() + " va a gestionar las matriculas";
 	}
 	public String trabajar() {
-		return "La administrativa " + this.getNombre() + "va a realizar estas tareas: " + this.getTareas();
+		return "La administrativa " + this.getNombre() + " va a realizar estas tareas: " + this.getTareas();
 	}
 	public String llamar() {
 		return super.llamar();
