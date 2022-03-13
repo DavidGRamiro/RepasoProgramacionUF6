@@ -42,7 +42,7 @@ public abstract class Persona {
 	}
 	
 	public String llamar() {
-		return this.getNombre() + nombre;
+		return this.getNombre();
 	}
 	public abstract String trabajar();
 	
