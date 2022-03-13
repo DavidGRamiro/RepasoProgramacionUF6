@@ -13,7 +13,9 @@ public abstract class Persona {
 		this.dirección=dirección;
 		this.telf=telf;
 	}
-	
+	public Persona() { 
+		
+	}
 	public String getNombre() {
 		return nombre;
 	}
@@ -23,10 +25,10 @@ public abstract class Persona {
 	public String getNif() {
 		return nif;
 	}
-	public void setNig(String nif) {
+	public void setNif(String nif) {
 		this.nif=nif;
 	}
-	public String dirección() {
+	public String getDirección() {
 		return dirección;
 	}
 	public void setDirección(String dirección) {
@@ -37,6 +39,15 @@ public abstract class Persona {
 	}
 	public void setTelf(int telf) {
 		this.telf=telf;
+	}
+	
+	public String llamar() {
+		return this.getNombre() + nombre;
+	}
+	public abstract String trabajar();
+	
+	public String toString() {
+		return "Nombre: " + this.getNombre() + ", NIF: " + this.getNif() + ", Dirección: " + this.getDirección() + "Teléfono : " + this.getTelf();
 	}
 	
 	
